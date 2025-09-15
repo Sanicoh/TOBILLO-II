@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "forest",
+    "birch_forest",
+    "dark_forest"
+  ],
+  "spawners": {
+    "type": "tobillomod_2:boar",
+    "weight": 9,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

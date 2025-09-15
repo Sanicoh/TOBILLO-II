@@ -1,0 +1,239 @@
+{
+  "mod_elements": [
+    {
+      "name": "PolishCow",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polish_cow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tobillomod_2/models/item/polish_cow_spawn_egg.json",
+          "src/main/java/net/mcreator/tobillomod/client/renderer/PolishCowRenderer.java",
+          "src/main/resources/data/tobillomod_2/forge/biome_modifier/polish_cow_biome_modifier.json",
+          "src/main/java/net/mcreator/tobillomod/entity/PolishCowEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "PurifiedFlesh",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_flesh",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tobillomod_2/models/item/purified_flesh.json",
+          "src/main/java/net/mcreator/tobillomod/item/PurifiedFleshItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PurifiedFleshRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "purified_flesh_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tobillomod_2/recipes/purified_flesh_recipe.json",
+          "src/main/resources/data/tobillomod_2/advancements/recipes/purified_flesh_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LizardmanPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lizardman_painting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BoarPainting",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boar_painting",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Boar",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/tobillomod_2/models/item/boar_spawn_egg.json",
+          "src/main/java/net/mcreator/tobillomod/entity/BoarEntity.java",
+          "src/main/java/net/mcreator/tobillomod/client/renderer/BoarRenderer.java",
+          "src/main/resources/data/tobillomod_2/forge/biome_modifier/boar_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Mandarina",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mandarina",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tobillomod/item/MandarinaItem.java",
+          "src/main/resources/assets/tobillomod_2/models/item/mandarina.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "polishcowdeath",
+      "files": [
+        "vaca_polaca_muerte"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "polishcowambient",
+      "files": [
+        "vaca_borracha_ambiente"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "polishcowhurt",
+      "files": [
+        "la_vaca_borracha_dano"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vacapolacasonidodemuerte",
+      "files": [
+        "video_para_sonido_vaca_online-audio-converter.com"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vacaesniffe",
+      "files": [
+        "video-esnifada-vaca"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "polishcowhurt2",
+      "files": [
+        "sonido-vaka-cuando-esta-agresiva"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mandarina",
+      "files": [
+        "mandarina"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Mandarina"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "entity.tobillomod_2.polish_cow": "Polish Cow",
+      "item.tobillomod_2.polish_cow_spawn_egg": "Polish Cow Spawn Egg",
+      "subtitles.polishcowdeath": "",
+      "subtitles.polishcowambient": "",
+      "subtitles.polishcowhurt": "",
+      "subtitles.vacapolacasonidodemuerte": "",
+      "subtitles.vacaesniffe": "",
+      "subtitles.polishcowhurt2": "",
+      "item.tobillomod_2.purified_flesh": "Purified Flesh",
+      "painting.tobillomod_2.lizardman_painting.author": "???",
+      "painting.tobillomod_2.lizardman_painting.title": "Lizardman painting",
+      "painting.tobillomod_2.boar_painting.author": "???",
+      "painting.tobillomod_2.boar_painting.title": "Boar Painting",
+      "item.tobillomod_2.boar_spawn_egg": "Boar Spawn Egg",
+      "entity.tobillomod_2.boar": "Boar",
+      "subtitles.mandarina": "",
+      "item.tobillomod_2.mandarina": "Music Disc",
+      "item.tobillomod_2.mandarina.desc": "mandarina."
+    },
+    "es_es": {
+      "entity.tobillomod_2.polish_cow": "Vaca Polaca",
+      "item.tobillomod_2.polish_cow_spawn_egg": "Generador de Vaca Polaca",
+      "subtitles.polishcowdeath": "",
+      "subtitles.polishcowambient": "",
+      "subtitles.polishcowhurt": "",
+      "subtitles.vacapolacasonidodemuerte": "",
+      "subtitles.vacaesniffe": "",
+      "subtitles.polishcowhurt2": "",
+      "item.tobillomod_2.purified_flesh": "Carne Purificada",
+      "painting.tobillomod_2.lizardman_painting.author": "???",
+      "painting.tobillomod_2.lizardman_painting.title": "Cuadro de Hombre Lagarto",
+      "painting.tobillomod_2.boar_painting.author": "???",
+      "painting.tobillomod_2.boar_painting.title": "Cuadro de Jabali",
+      "item.tobillomod_2.boar_spawn_egg": "Generador de Jabali",
+      "entity.tobillomod_2.boar": "Jabali",
+      "subtitles.mandarina": "",
+      "item.tobillomod_2.mandarina": "Disco de música",
+      "item.tobillomod_2.mandarina.desc": "mandarina."
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/tobillomod/init/Tobillomod2ModTabs.java",
+      "src/main/java/net/mcreator/tobillomod/Tobillomod2Mod.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/tobillomod/init/Tobillomod2ModModels.java",
+      "src/main/java/net/mcreator/tobillomod/init/Tobillomod2ModSounds.java",
+      "src/main/resources/assets/tobillomod_2/sounds.json",
+      "src/main/java/net/mcreator/tobillomod/init/Tobillomod2ModPaintings.java",
+      "src/main/resources/data/minecraft/tags/painting_variant/placeable.json",
+      "src/main/java/net/mcreator/tobillomod/init/Tobillomod2ModItems.java",
+      "src/main/java/net/mcreator/tobillomod/init/Tobillomod2ModEntityRenderers.java",
+      "src/main/java/net/mcreator/tobillomod/init/Tobillomod2ModEntities.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tobillomod_2",
+    "modName": "Tobillomod II",
+    "version": "1.0.0",
+    "description": "A mod where randomness mixes with normal content.",
+    "author": "Sanicoh",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "modPicture": "tobillo_ii_imagen_oficial_sis",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.tobillomod"
+  },
+  "mcreatorVersion": 202500228610
+}

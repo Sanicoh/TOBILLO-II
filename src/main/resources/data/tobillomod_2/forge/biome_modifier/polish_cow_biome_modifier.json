@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "tobillomod_2:polish_cow",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

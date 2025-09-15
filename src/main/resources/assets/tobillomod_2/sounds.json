@@ -1,0 +1,58 @@
+{
+  "polishcowdeath": {
+    "sounds": [
+      {
+        "name": "tobillomod_2:vaca_polaca_muerte",
+        "stream": false
+      }
+    ]
+  },
+  "polishcowambient": {
+    "sounds": [
+      {
+        "name": "tobillomod_2:vaca_borracha_ambiente",
+        "stream": false
+      }
+    ]
+  },
+  "polishcowhurt": {
+    "sounds": [
+      {
+        "name": "tobillomod_2:la_vaca_borracha_dano",
+        "stream": false
+      }
+    ]
+  },
+  "vacapolacasonidodemuerte": {
+    "sounds": [
+      {
+        "name": "tobillomod_2:video_para_sonido_vaca_online-audio-converter.com",
+        "stream": false
+      }
+    ]
+  },
+  "vacaesniffe": {
+    "sounds": [
+      {
+        "name": "tobillomod_2:video-esnifada-vaca",
+        "stream": false
+      }
+    ]
+  },
+  "polishcowhurt2": {
+    "sounds": [
+      {
+        "name": "tobillomod_2:sonido-vaka-cuando-esta-agresiva",
+        "stream": false
+      }
+    ]
+  },
+  "mandarina": {
+    "sounds": [
+      {
+        "name": "tobillomod_2:mandarina",
+        "stream": true
+      }
+    ]
+  }
+}

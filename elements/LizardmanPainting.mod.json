@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "painting",
+  "definition": {
+    "texture": "textura_cuadro_hombre_lagarto",
+    "width": 32,
+    "height": 32,
+    "title": "Lizardman painting",
+    "author": "???"
+  }
+}
