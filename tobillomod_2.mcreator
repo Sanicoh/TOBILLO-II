@@ -88,19 +88,6 @@
           "src/main/resources/assets/tobillomod_2/models/item/mandarina.json"
         ]
       }
-    },
-    {
-      "name": "Tulamagica",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "tulamagica",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/tobillomod/item/TulamagicaItem.java",
-          "src/main/resources/assets/tobillomod_2/models/item/tulamagica.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
@@ -187,8 +174,7 @@
       "entity.tobillomod_2.boar": "Boar",
       "subtitles.mandarina": "",
       "item.tobillomod_2.mandarina": "Music Disc",
-      "item.tobillomod_2.mandarina.desc": "mandarina.",
-      "item.tobillomod_2.tulamagica": "Tulamagica"
+      "item.tobillomod_2.mandarina.desc": "mandarina."
     },
     "es_es": {
       "entity.tobillomod_2.polish_cow": "Vaca Polaca",
@@ -208,8 +194,7 @@
       "entity.tobillomod_2.boar": "Jabali",
       "subtitles.mandarina": "",
       "item.tobillomod_2.mandarina": "Disco de música",
-      "item.tobillomod_2.mandarina.desc": "mandarina.",
-      "item.tobillomod_2.tulamagica": "Tulamagica"
+      "item.tobillomod_2.mandarina.desc": "mandarina."
     }
   },
   "metadata": {
