@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "tobillomod_2:item/defeat_polish_cow"
+  }
+}

@@ -33,6 +33,7 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.tobillomod.procedures.AdvancemenpolishcowProcedure;
 import net.mcreator.tobillomod.init.Tobillomod2ModEntities;
 
 public class PolishCowEntity extends Monster {
@@ -95,6 +96,12 @@ public class PolishCowEntity extends Monster {
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(ResourceLocation.parse("tobillomod_2:vacapolacasonidodemuerte"));
+	}
+
+	@Override
+	public void die(DamageSource source) {
+		super.die(source);
+		AdvancemenpolishcowProcedure.execute(source.getEntity());
 	}
 
 	@Override

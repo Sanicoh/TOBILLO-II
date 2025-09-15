@@ -16,5 +16,8 @@
   "entity.tobillomod_2.boar": "Jabali",
   "subtitles.mandarina": "",
   "item.tobillomod_2.mandarina": "Disco de música",
-  "item.tobillomod_2.mandarina.desc": "mandarina."
+  "item.tobillomod_2.mandarina.desc": "mandarina.",
+  "item.tobillomod_2.polishcowdefeat": "Polishcowdefeat",
+  "advancements.polishcowdefeatadvancement.title": "BIU",
+  "advancements.polishcowdefeatadvancement.descr": "kill polish cow"
 }

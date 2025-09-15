@@ -88,6 +88,49 @@
           "src/main/resources/assets/tobillomod_2/models/item/mandarina.json"
         ]
       }
+    },
+    {
+      "name": "Polishcowdefeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishcowdefeat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/tobillomod/item/PolishcowdefeatItem.java",
+          "src/main/resources/assets/tobillomod_2/models/item/polishcowdefeat.json"
+        ]
+      }
+    },
+    {
+      "name": "Polishcowdefeatadvancement",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polishcowdefeatadvancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/tobillomod_2/advancements/polishcowdefeatadvancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Advancemenpolishcow",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advancemenpolishcow",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/tobillomod/procedures/AdvancemenpolishcowProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -174,7 +217,10 @@
       "entity.tobillomod_2.boar": "Boar",
       "subtitles.mandarina": "",
       "item.tobillomod_2.mandarina": "Music Disc",
-      "item.tobillomod_2.mandarina.desc": "mandarina."
+      "item.tobillomod_2.mandarina.desc": "mandarina.",
+      "item.tobillomod_2.polishcowdefeat": "Polishcowdefeat",
+      "advancements.polishcowdefeatadvancement.title": "BIU",
+      "advancements.polishcowdefeatadvancement.descr": "kill polish cow"
     },
     "es_es": {
       "entity.tobillomod_2.polish_cow": "Vaca Polaca",
@@ -194,7 +240,10 @@
       "entity.tobillomod_2.boar": "Jabali",
       "subtitles.mandarina": "",
       "item.tobillomod_2.mandarina": "Disco de música",
-      "item.tobillomod_2.mandarina.desc": "mandarina."
+      "item.tobillomod_2.mandarina.desc": "mandarina.",
+      "item.tobillomod_2.polishcowdefeat": "Polishcowdefeat",
+      "advancements.polishcowdefeatadvancement.title": "BIU",
+      "advancements.polishcowdefeatadvancement.descr": "kill polish cow"
     }
   },
   "metadata": {
